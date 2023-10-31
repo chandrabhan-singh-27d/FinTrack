@@ -2,7 +2,11 @@
 </script>
 
 <template>
-  <div class="text-4xl">This is first vite dashboard with vue3(composition API) + vitest + typescript</div>
+  <nav>
+    <router-link to="/">Home</router-link>
+    <router-link to="/profile">Profile</router-link>
+  </nav>
+  <router-view />
 </template>
 
 <style scoped>
